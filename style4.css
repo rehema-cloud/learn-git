@@ -1,0 +1,29 @@
+ol li{
+    /* list-style: none; */
+    list-style-type: upper-roman;
+    border: 1px solid white;
+    text-align: center;
+}
+
+ol {
+    color: whitesmoke;
+    background-color: blue;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    /* justify-content: center; */
+    /* justify-content: space-around; */
+}
+nav ul{
+    display: flex;
+    gap: 10px;
+
+}
+ul li{
+    list-style: none;
+    
+
+}
+ li a{
+    text-decoration: none;
+}
